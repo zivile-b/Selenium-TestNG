@@ -10,11 +10,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import pageobject.Login;
+import utils.Utils;
 
 public class LogOut {
 	public WebDriver driver;
 	public Login login;
 	public AddIssueTest issue;
+	Utils utils = new Utils();
 	
 	@Test
 	public void Should_find_cookies() throws InterruptedException {

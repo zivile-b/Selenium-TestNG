@@ -12,10 +12,12 @@ import org.testng.annotations.BeforeClass;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import pageobject.*;
+import utils.Utils;
 
 public class NewTest {
 
 	public WebDriver driver;
+	Utils utils = new Utils();
 
 	@Test
 	public void loginToQaontime() throws InterruptedException {
