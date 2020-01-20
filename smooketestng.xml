@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="tests">
+  
+  <groups>
+    <run>
+      <include name="smooke"/>
+    </run>
+  </groups>
+    
+    <classes>
+      <class name="tests.NewTest"/>
+      <class name="tests.LoginTest"/>
+      <class name="tests.LogOut"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
