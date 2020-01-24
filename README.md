@@ -15,7 +15,7 @@ Requirements
 
 Setup
 ------------
-Replace ```config/config.xml``` old data with valid login information
+Replace ```config/config.xml``` wrong data with valid login information
 ```xml
 <config>
 	<urlXml>http://qaontime.com/register</urlXml>
