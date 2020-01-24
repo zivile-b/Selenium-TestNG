@@ -1,0 +1,7 @@
+<config>
+	<urlXml>http://qaontime.com/register</urlXml>
+	<user>
+		<userNameXml>yourValidUserName</userNameXml>
+		<paswordXml>yourValidPassword</paswordXml>
+	</user>
+</config>
